@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Text(
                         'Hi John,',
                         style: TextStyle(
-                            fontFamily: 'BwNista',
+                            fontFamily: 'ITCAvant',
                             fontSize: 30,
                             color: orangeColor),
                       ),
@@ -79,7 +79,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Text(
                         'What are you\nLooking for?',
                         style: TextStyle(
-                            fontFamily: 'BwNista',
+                            fontFamily: 'ITCAvant',
                             fontSize: 20,
                             color: greyColor),
                       ),
@@ -96,11 +96,11 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           Positioned(
-            top: 240,
+            bottom: 80,
             left: 4,
             child: Container(
               width: MediaQuery.of(context).size.width - 8,
-              height: MediaQuery.of(context).size.height - 240,
+              height: MediaQuery.of(context).size.height - 310,
               child: GridView.count(
                 padding: EdgeInsets.all(0),
                 crossAxisCount: 2,

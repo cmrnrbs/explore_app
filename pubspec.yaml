@@ -46,15 +46,9 @@ flutter:
     - assets/fonts/
 
   fonts:
-    - family: BwNista
-      fonts:
-        - asset: assets/fonts/BwNista.otf
     - family: HelveticaWorld
       fonts:
         - asset: assets/fonts/HelveticaWorld.ttf
-    - family: HelveticaWorldR
-      fonts:
-        - asset: assets/fonts/HelveticaWorldR.ttf
     - family: ITCAvant
       fonts:
         - asset: assets/fonts/ITCAvant.otf
